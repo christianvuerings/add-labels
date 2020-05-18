@@ -1,0 +1,9 @@
+name: "Add Labels"
+description: "Add labels on Pull Requests or Issues"
+inputs:
+  labels:
+    description: "Labels to add"
+    required: true
+runs:
+  using: "node12"
+  main: "dist/index.js"
