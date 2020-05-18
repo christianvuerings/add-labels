@@ -37,6 +37,7 @@ jobs:
 ## Update compiled files
 
 ```
+npm i
 npm i -g @zeit/ncc
 ncc build index.js
 ```
