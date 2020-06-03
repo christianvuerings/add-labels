@@ -8,6 +8,10 @@ A GitHub Action to add labels on PR / Issue events
 
 **Required** Labels to add.
 
+### `issue_number`
+
+**Optional** Issue/Pull number
+
 ## Example usage
 
 ```
